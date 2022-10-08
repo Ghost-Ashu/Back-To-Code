@@ -1,0 +1,3 @@
+- This is a template for starting page of a website
+- Langauages used html,css,javascript
+- Happy coding
