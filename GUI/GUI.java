@@ -2,7 +2,7 @@ public import javax.swing.*;
 
 public class gui {
 
-    GUI() {
+    gui() {
         JFrame f = new JFrame("Table");
 
         String[][] data = {
@@ -23,8 +23,8 @@ public class gui {
     }
 
     public static void main(String[] args) {
-        new GUI();
+        new gui();
     }
 
 }
- 
+
