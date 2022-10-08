@@ -1,3 +1,0 @@
-- This code used to generate  a GUI table using Java swing 
-- Try running it any ide with jdk 
-- Happy coding
