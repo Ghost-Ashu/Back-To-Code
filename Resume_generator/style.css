@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://i0.wp.com/arandaafters.com/wp-content/uploads/2018/02/light-decorative-ombre-blue-wallpaper-handmade-premium-shocking-collection-great-design.jpg');
+  }
+  
+  #cv-template {
+    display: none;
+  }
+  .myimg {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .background {
+    background-color: #b3ecff;
+  }
+  
+ title
+  {
+    background-color: aqua
+  }
