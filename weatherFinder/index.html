@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="flexbox">
+    <div class="container flexbox border">
+        <header class="margin-bottom"><h1>Weather App</h1></header>
+        <form>
+            <input type="text" id="inputTxt" class="border" placeholder="Enter City Name..." spellcheck="false">
+            <button type="search" id="searchBtn"><i class="fas fa-search"></i></button>
+        </form>
+        <section class="flexbox" style=" display: none;">
+            <img src="" class="margin-bottom" alt="weather">
+            <h1 class="margin-bottom"></h1>
+            <p class="margin-bottom"></p>
+            <div id="location" class="margin-bottom div"></div>
+            <div class="feels-like div margin-bottom"></div>
+            <div class="humidity div margin-bottom"></div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
