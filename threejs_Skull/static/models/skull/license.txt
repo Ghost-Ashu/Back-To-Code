@@ -1,0 +1,11 @@
+Model Information:
+* title:	Monkey Skull
+* source:	https://sketchfab.com/3d-models/monkey-skull-16a6e8b5830b4da6828af63e91f75f9b
+* author:	RISD Nature Lab (https://sketchfab.com/RISDNaturelab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Monkey Skull" (https://sketchfab.com/3d-models/monkey-skull-16a6e8b5830b4da6828af63e91f75f9b) by RISD Nature Lab (https://sketchfab.com/RISDNaturelab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
