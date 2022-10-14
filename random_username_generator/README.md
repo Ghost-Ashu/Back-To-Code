@@ -1,0 +1,1 @@
+Feeling confused when creating username account? Try this program, it will take the first and last name of yours or your idea name. After that it will generate random username based on both input. Happy coding!!!.
