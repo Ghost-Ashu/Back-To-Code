@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.8) url("https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png") center center/cover;
+    color: #fff;
+    letter-spacing: 1px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 80vh;
+}
+
+p {
+    margin: 5px 0;
+}
+
+h2,
+h4 {
+    margin: 10px 0 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 10px 0 -5px;
+}
+
+input[type=checkbox] {
+    margin-right: 0;
+}
+
+input[type=number] {
+    width: 15%;
+}
+
+.container {
+    background-color: #3434bb;
+    box-shadow: 0.5px 3px 12px rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    width: 350px;
+    max-width: 100%;
+}
+
+.result-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 12px 10px;
+    height: 50px;
+}
+
+.result-container #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 13vh;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #ebc624;
+}
+
+.btn-large {
+    display: block;
+    width: 100%;
+}
+
+#generate {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#generate:hover {
+    background-color: #ffd20a;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+
+@media screen and (max-width:700px) {
+    .result-container .btn i {
+        font-size: 14px;
+        margin: 0 0 0 -7px;
+    }
+}
+
+
+@media screen and (min-width:130px) {
+    .result-container .btn {
+        width: 10vh;
+    }
+
+}
