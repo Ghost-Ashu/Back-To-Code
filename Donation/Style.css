@@ -1,0 +1,137 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "ubuntu";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Heading Section */
+  .heading-main {
+    padding-top: 7%;
+    font-family: "Montserrat-black", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding-bottom: 3%;
+  }
+  .heading-main:hover {
+    color: #007bff;
+  }
+  .heading-large {
+    font-family: "Montserrat-black", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: "Ubuntu";
+  }
+  
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  .colored-section {
+    background-color: #e83e8c;
+    color: #fff;
+  }
+  .white-section {
+    /* background-color: #fff ; */
+    background-color: #f9faff;
+  }
+  
+  /* Donate Buttons */
+  .donate-button {
+    margin: 3% 5% 3% 0;
+  }
+  .donate-button:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Modal */
+  .modal-body {
+    padding: 50px;
+    background-color: #f9faff;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 22%;
+    text-align: left;
+    background-image: url("images/malnutrition-in-india.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* History Section */
+  #historys {
+    position: relative;
+  }
+  
+  /* details Section */
+  #details {
+    padding: 100px;
+  }
+  .detail-heading {
+    color: #C490E4;
+  }
+  .detail-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  .detail-column {
+    padding: 3% 2%;
+  }
+  
+  /* jobs Section */
+  #job {
+    padding: 100px;
+  }
+  
+  .job-text {
+    font-size: 2.6rem;
+    color: #ffaaa7;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  .job-column {
+    padding: 3% 2%;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  }
+  
+  /*footer*/
+  .foot {
+    background-color: #100d44;
+    color: #ffaaa7;
+  }
+  
+  .container-foot {
+    padding: 1, 2;
+  }
