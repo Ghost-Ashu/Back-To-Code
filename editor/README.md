@@ -1,0 +1,1 @@
+This code is used generate a editor which can be used to write docs
