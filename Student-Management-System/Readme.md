@@ -1,0 +1,3 @@
+an attractive and user friendly desktop application Student Management System. This application is used to store the student's data. And we can use this application as a minor project for our college. This application is basically implemented using the python framework Tkinter which provides the tools to implement the desktop application. 
+
+I have implemented this application for the coaching purpose which is using real time in my friend's coaching.
