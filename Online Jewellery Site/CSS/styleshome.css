@@ -1,0 +1,116 @@
+body{
+  background-image: url('https://crownedrentals.com/wp-content/uploads/2018/03/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victorian-seamless-texture-for-wallpapers-textile-wrapping-exquisite-floral-baroque-template_1217-414.jpg');
+  font-family: "Poppins",sans-serif;
+  text-align: center;
+}
+.fab{
+  font-size: 2rem;
+  width: 25%;
+}
+h1{
+  text-align: center;
+  font-size: 5rem;
+}
+#title{
+  padding :1.5% 0 1% 0;
+}
+.design-categories-areas{
+  padding-bottom: 4%;
+}
+#ourtrendingproducts{
+
+  text-align: center;
+  padding: 0 15%;
+}
+.card-link{
+  font-weight: bold;
+}
+.goldproducts-col{
+  padding-bottom:  3rem;
+}
+.list-group-item{
+  color: black;
+  font-weight: bold;
+}
+.title{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #0D2247;
+    font-size: 50px;
+    padding: 8%;
+}
+.img-fluid{
+  border-radius: 2rem;
+}
+.con{
+  font-weight: bold;
+  color: black;
+}
+h4{
+  font-weight: bold;
+  color: black;
+  padding: 6%;
+}
+.sale{
+  padding: 4% 4% 0 4%;
+}
+.banner{
+  padding: 8% 14% 0 14%;
+}
+.photo{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-right: 4%;
+}
+.n{
+  color: #0D2247;
+  font-size: 7rem;
+  padding: 5%;
+}
+
+.offer-logos{
+  text-align: center;
+  padding-bottom: 8%;
+}
+#space {
+    width:100%;
+    padding-bottom: 4%;
+}
+#large {
+    width:60%;
+    float:left;
+    margin:1% 1%;
+    padding:0px;
+}
+.small {
+    width:29%;
+    float:left;
+    margin:1% 1%;
+    padding:0px;
+}
+.im {
+    width:100%;
+    height:auto;
+    padding:0px;
+    margin:0px;
+}
+#footer{
+  text-align: center;
+  background-color: #FFEBCC;
+  padding: 7% 15%;
+}
+.thank{
+  padding: 4%;
+}
+.pho{
+  padding: 8%;
+}
+.social-icon{
+  color: black;
+  font-size: 3.5rem;
+   margin: 40px 20px;
+   width: 15%;
+}
+.social-icon:hover{
+  color: royalblue;
+}
