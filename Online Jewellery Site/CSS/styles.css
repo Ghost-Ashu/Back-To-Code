@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  padding: 1% 15%;
+}
+.goldproducts-col{
+  padding-bottom:  3rem;
+}
+.list-group-item{
+  color: black;
+  font-weight: bold;
+}
+  h1{
+    padding: 3rem 2rem 3rem 0;
+    color: red;
+}

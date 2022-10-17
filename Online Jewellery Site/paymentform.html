@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Form</title>
+<style>
+* {
+       box-sizing: border-box;
+  }
+body{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 15px 30px;
+ font-size: 17px;
+ padding: 8px;
+}
+.container{
+  background-color: #f2f2f2;
+  padding 5px 20px 15px 20px;
+  border:1px solid lightgray;
+  border-radius:4px ;
+  margin:5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+  width: 95%;
+  padding: 12px 20px;
+  border:1px  solid  #ccc;
+  border-radius: 5px ;
+  margin:5px;
+}
+fieldset{
+  background-color:#fff;
+   border:1px solid #ccc;
+   width 95%;
+}
+.main{
+  text-align: center;
+}
+input[type="submit"]{
+  background-color: blue;
+  color: white;
+  padding:12px ;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+
+}
+input[type="submit"]:hover {
+  background-color :green;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<form action=" ">
+<h1 class="main">Payment Form</h1>
+<hr>
+<h2>User Information</h2>
+<p>First Name:*<input type="text" name="fname" required></p>
+<p>Last Name:*<input type="text" name="lname" required></p>
+<p>Contact No.* <input type="number" required></p>
+
+<fieldset>
+<legend>Gender </legend>
+<p>Male <input type="radio" name="gender" id="male">
+female <input type="radio" name="gender" id="female">
+</p>
+</fieldset>
+<p>
+Address:
+<textarea placeholder="Enter Your Address" name="addresss" id="address"></textarea>
+
+</p>
+<p>Email: <input type="email" name="email" id="email" required </p>
+<p>
+Pincode: <input type="number" name="pincode" id="pincode">
+</p>
+<hr>
+<h2>Payment Information</h2>
+<p>Card Type:
+   <select name="card_type" id="csrd_type">
+   <option value="">--Select a Card Type--</option>
+   <option value="Visa">Visa </option>
+   <option value="rupay">rupay </option>
+   <option value="Mastercard">Mastercard </option>
+   </select></p>
+   <p>
+   Card Number: <input type="number" name="card" id="card_number">
+</p>
+<p>
+   Expiration Date: <input type="date" name="exp_date">
+</p>
+<p> CVV <input type="password" name="cvv" id="cvv"</p>
+<p><input type="submit" src="delivery.html" value="Pay Now">
+</p>
+</form>
+</div>
+</body>
+</html>
