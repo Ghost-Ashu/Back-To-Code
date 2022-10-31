@@ -1,0 +1,1 @@
+I have made a parallax website using HTML and CSS.It has a fixed picture in the backdrop and enables us to scroll up and down the page to view the various elements of that image from different perspectives.
